@@ -1,0 +1,11 @@
+# Install torch separately matching your CUDA, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+open_clip_torch>=2.23.0
+timm>=0.9.8
+transformers>=4.30
+h5py
+numpy
+pillow
+scikit-learn
+tqdm
+huggingface_hub

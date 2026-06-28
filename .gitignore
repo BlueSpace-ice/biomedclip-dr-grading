@@ -1,0 +1,23 @@
+# data
+*.h5
+
+# model weights
+models/
+
+# training artefacts
+checkpoints/
+results/
+results_backup/
+
+# metadata / caches
+split_metadata.json
+translation_cache.json
+
+# misc
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.zip
+
+# env
+.claude/
